@@ -1,0 +1,5 @@
+<button (click)="signIn()">SignIn</button>
+<br />
+<div>{{token}}</div>
+<br />
+<button *ngIf="token" (click)="signOut()">Signout</button>
